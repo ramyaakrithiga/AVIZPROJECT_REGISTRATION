@@ -84,7 +84,7 @@ mvn test
 mvn test -Dcucumber.filter.tags="@Smoke"
 ```
 
-### Run only Negative / Validation tests
+### Run only Negative / Validation tests - 12
 ```bash
 mvn test -Dcucumber.filter.tags="@Negative"
 ```
