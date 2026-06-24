@@ -1,0 +1,13 @@
+# ──────────────────────────────────────────────────────────────
+#  ExtentReports Spark Reporter – inline JSON theme override
+#  (optional – values here are applied on top of extent.properties)
+# ──────────────────────────────────────────────────────────────
+{
+  "theme": "dark",
+  "encoding": "UTF-8",
+  "documentTitle": "Aviz Aero Automation Report",
+  "reportName": "Registration BDD Test Report",
+  "timelineEnabled": true,
+  "js": "",
+  "css": ""
+}

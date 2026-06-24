@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--
+  TestNG Suite Configuration
+  Run: mvn test  (picks this file up via surefire plugin config in pom.xml)
+-->
+<suite name="Aviz Registration Automation Suite"
+       verbose="1"
+       thread-count="1"
+       data-provider-thread-count="1">
+
+    <parameter name="browser" value="chrome"/>
+
+    <listeners>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    </listeners>
+
+    <test name="Aviz BDD Registration Tests">
+        <classes>
+            <class name="com.aviz.tests.runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
