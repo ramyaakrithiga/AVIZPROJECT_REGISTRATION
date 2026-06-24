@@ -57,7 +57,7 @@ AvizProject_Registration/
 
 ---
 
-## Configuration
+## Configuration - 12
 
 Edit `src/test/resources/config.properties` to customise the run:
 
